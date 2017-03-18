@@ -23,7 +23,7 @@ WARNING! The running kernel will be replaced by whatever is in the /usr/src/kern
 
 This script will configure the kernel to use the UVC driver as a module, and then apply patches to the UVC driver to recognize the different RealSense video formats. Once the preparation is complete, the module will be installed and the kernel image will be placed in the boot directory.
 
-Note: The script setupTX1.sh is provided for an easy way to turn off USB autosuspend. The USB autosuspend feature is normally turned on to conserve energy usage. However, this has the effect losing USB camera connections.
+Note: The script setupTX1.sh is provided for an easy way to turn off USB autosuspend. The USB autosuspend feature is normally turned on to conserve energy usage. However, this has the effect of losing USB camera connections.
 
 
 
