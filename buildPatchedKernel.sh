@@ -11,6 +11,7 @@ echo "modifies the kernel .config file, and then compiles the kernel and modules
 echo "Once finished, the script copies the kernel image to the boot directory."
 echo "Use caution, as this script *WILL* replace your current kernel with whatever is in"
 echo "/usr/src/kernel/kernel-4.4"
+echo "Requires reboot after script completion"
 echo ""
 read -p "Patch UVCVideo Driver, Recompile Kernel and Install? (Y/n) " RESP
 if [ "$RESP" = "Y" ]; then
