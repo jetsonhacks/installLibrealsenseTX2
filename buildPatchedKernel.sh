@@ -39,7 +39,7 @@ echo "Building Kernel ... "
 # Make the kernel and module to reflect UVC changes
 sudo make prepare
 sudo make modules_prepare
-sudo make -j4
+sudo make -j6
 sudo make modules
 sudo make modules_install
 # Copy over the images to the boot directory; modules should be installed
