@@ -1,6 +1,8 @@
 # installLibrealsenseTX2
 Install the librealsense for Intel RealSense cameras on the NVIDIA Jetson TX2
 
+These scripts are for installing on L4T 27.1
+
 In order to install the V4L2 version of the librealsense library on the Jetson TX2, a new kernel must be built. Please see:
 
 https://github.com/jetsonhacks/buildJetsonTX2Kernel
